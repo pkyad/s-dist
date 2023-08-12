@@ -1,0 +1,16 @@
+django==4.0.5
+djangorestframework==3.13.1
+mysqlclient==2.2.0
+pyyaml==6.0
+uritemplate==4.1.1
+pre-commit==3.0.1
+psycopg2==2.9.7
+commitizen==2.42.1
+docutils==0.19
+coverage==7.2.1
+coverage-threshold==0.4.4
+django-extensions==3.2.1
+django-prometheus==2.3.1
+redis==4.5.5
+drf-yasg==1.21.6
+djangorestframework-simplejwt==5.2.2
