@@ -1,9 +1,6 @@
 {
-  "name": "Your Definition Name Here (Community)",
-
-  "dockerComposeFile": "docker-compose.yml",
-
+  "name": "staffe::",
+  "dockerComposeFile": "../docker-compose.yml",
   "service": "app",
-  "workspaceFolder": "/workspace",
-
+  "workspaceFolder": "/workspace"
 }

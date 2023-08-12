@@ -6,11 +6,12 @@ networks:
 services:
   app:
     build: 
-      context: ../
+      context: .
       dockerfile: Dockerfile.dev
     network_mode: "host"
     volumes:
-      - ..:/workspace:cached
+      - .:/workspace:cached
+      - ~/.ssh:/root/.ssh
 
     command: /bin/sh -c "while sleep 1000; do :; done"  
 
